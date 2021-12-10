@@ -135,6 +135,11 @@ A separate software device that is connected to the blockchain network according
 
 ---  
 
+### Phantom
+A software cryptocurrency wallet reimagined for DeFi. Phantom makes it safe and easy for you to store, send, receive, collect and swap tokens on the Solana blockchain.  
+
+---  
+
 ### Plugin
 A software component, built as a separate module, that adds new capabilities to the main program.  
 
