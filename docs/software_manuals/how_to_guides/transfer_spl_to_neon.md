@@ -20,7 +20,7 @@ Transfer SPL custom tokens from the Solana blockchain to the ERC-20 account bala
 The application uses Metamask and Phantom — two popular non-custodial browser based wallets. This pair of wallets gives users the ability to transfer SPL tokens to Neon EVM.
 
 ### Step 1. Open the Neon Bridge application
-Go to the main [Neon](https://neon-labs.org/) page and open the `Neon Bridge` tab (**what is the page and the tab name ?**).
+Go to the main [Neon](https://neon-labs.org/) page and open the `NeonPass` tab to call the Solana-Neon token transfer application.
 
 <div class='neon-img-width-600' style={{textAlign: 'center'}}>
 
@@ -72,4 +72,4 @@ Open the `Details` tab located below. The application will display you the resul
 
 </div>
 
-After crediting tokens to the account balance in Neon EVM , you can swap them to NEON to pay for the gas required for each transaction to execute. To do so you can use the Neoswap application.
+After crediting tokens to the account balance in Neon EVM, you can swap them to NEON to pay for the gas required for each transaction to execute. To do so you can use the Neonswap application.
