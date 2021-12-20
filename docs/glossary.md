@@ -185,6 +185,11 @@ A mathematical algorithm used to demonstrate the authenticity of digital message
 
 ---  
 
+### Slippage
+The difference between where the computer signaled the entry and exit for a trade and where actual clients, with actual money, entered and exited the market using the computer’s signals
+
+---  
+
 ### Slot
 The period of time during which a block is created. Collectively, slots create a logical clock. Slots are ordered sequentially and non-overlapping, comprising roughly equal time.  
 
