@@ -126,7 +126,7 @@ module.exports = {
             'software_manuals/how_to_guides/deploy_contract',
             'software_manuals/how_to_guides/connect_metamask_to_solana',
             'software_manuals/how_to_guides/transfer_spl_to_neon',
-            'software_manuals/how_to_guides/swap_spl_token',
+            'software_manuals/how_to_guides/swap_erc20',
             'software_manuals/how_to_guides/support_docs',
           ],
         },
