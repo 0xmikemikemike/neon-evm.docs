@@ -1,7 +1,7 @@
 # How to Swap ERC-20 Tokens
 
 ## Goal
-To swape an ERC-20 token with another token of the same standard using the Neon Swap application.
+To swap an ERC-20 token with another token of the same standard using the Neon Swap application.
 
 *Condition:* The ERC-20 token can be any [SPL token](https://doc.neonlabs.org/docs/glossary#spl-token) whose contract complies with the [ERC-20 standard](https://docs.neon-labs.org/docs/glossary#erc-20) and is deployed in Neon EVM.
 
@@ -26,11 +26,11 @@ Go to the main [Neon](https://neon-labs.org/) page and open the `Neon Swap` tab 
 
 </div>
 
-From the list appeared on the dropdown widow you have to select your wallet (in our case, this is Metamask). Select the account you want to connect to.
+From the list appeared on the dropdown window you have to select your wallet (in our case, this is Metamask). Select the account you want to connect to.
 
 ### Step 2. Select a pair of tokens to be swapped
 
-After connecting your wallet you can begin setting the exchange. You need to select the token that will be swapping from. It will retrive your balance from the connected wallet. In our case, it will be ETH.
+After connecting your wallet you can begin setting the exchange. You need to select the token that will be swapping from. It will retrieve your balance from the connected wallet. In our case, it will be ETH.
 
 Click `Select a token` to open up a menu where you can select a token to exchange for.
 
@@ -43,7 +43,7 @@ Click `Select a token` to open up a menu where you can select a token to exchang
 ### Step3. Add a new token to the list, if necessary
 The `Select a token` menu contains tokens deployed in Neon EVM. If the token symbol you specified is not in the list, you can paste the token's address if you know what it is. But be aware, the token must first be deployed on the Neon EVM network.
 
-If you want to add a new token to the list, click `Manage` at the bottom of the box. The `Manage` tab will open on the screen. Add the address of the new token deployed in the Neon EVM network and click `Import` (you can a token's address from a namber of places including [ERC20 Wrapper Address (Neon EVM)](https://docs.google.com/spreadsheets/d/1ksQl_BZDYZ17pf9HcinkgPt4xmVrXzudum43c6scdiM/edit#gid=0) (the link will be added later)).
+If you want to add a new token to the list, click `Manage` at the bottom of the box. The `Manage` tab will open on the screen. Add the address of the new token deployed in the Neon EVM network and click `Import` (you can take a token's address from a namber of places including [ERC20 Wrapper Address (Neon EVM)](https://docs.google.com/spreadsheets/d/1ksQl_BZDYZ17pf9HcinkgPt4xmVrXzudum43c6scdiM/edit#gid=0) (the link will be added later)).
 
 <div class='neon-img-width-600' style={{textAlign: 'center'}}>
 
@@ -58,7 +58,7 @@ After that, the symbol of the new token will appear in the list of tokens availa
 
 To check the balance of the token being sold, click `max` (next to the token symbol). Keep in mind that some amount of the token must be spent as a fee to pay for gas required for a transaction to execute. If you specify the entire amount of funds for trade, the resulting exchanged amount will be reduced by the fee.
 
-If there are not enough tokens in the pool to exchange, Neon Swap will warn about this by issuing the message "Insufficient liquidity for this trade."
+If there are not enough tokens in the pool to exchange, Neon Swap will warn about this by issuing the message "Insufficient liquidity for this trade".
 
 In our case, we exchange ETH tokens for USDT tokens. Let's specify the number of tokens to be exchanged equal to 10. Neon Swap will indicate the expected number of purchased USDT tokens, corresponding to 2.49176 at the exchange rate before our transaction.
 
@@ -117,5 +117,5 @@ Click the cogwheel icon. The window `Transaction Settings` will pop-up on the sc
 Transaction settings:
   * `Slippage tolerance` — the allowable amount of price change. It means that the order is fulfilled at the price different from what you expected. If it exceeds the tolerance level selected, the transaction will not go through. If you are trading during high volatility, you may want to increase this value. Increasing the transaction speed can help you to reduce the chances of high [slippage](https://doc.neonlabs.org/docs/glossary#slippage).
   * `Transaction deadline` — allows the transaction to automatically cancel if it is taking too long to process.
-  * `Toggle Expert Mode` — disables the confirmation screen and removes [slippage](https://doc.neonlabs.org/docs/glossary#slippage) limits. It is not encouraged you to enable this mode unless you fully understand the risks.
+  * `Toggle Expert Mode` — disables the confirmation screen and removes [slippage](https://doc.neonlabs.org/docs/glossary#slippage) limits. It is not encouraged to enable this mode unless you fully understand the risks.
   * `Disable Multihops` — disables complex conversion paths. For example, if there is not enough liquidity in the "A->B" token pair, then the algorithm can involve other tokens to find the "A->C->B" intermediate route and make an exchange for you. This action requires more network fees, because several smart contracts are involved.

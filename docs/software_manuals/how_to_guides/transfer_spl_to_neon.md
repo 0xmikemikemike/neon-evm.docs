@@ -29,7 +29,7 @@ Go to the main [Neon](https://neon-labs.org/) page and open the `NeonPass` tab t
 </div>
 
 ### Step 2. Connect the Phantom wallet to Solana
-Click `Select Wallet` on the left hand side of the screen. You will have option to connect up wallets. You have to select the Phantom (recommended) wallet to connect to the Solana network.
+Click `Select Wallet` on the left hand side of the screen. You will have an option to connect up wallets. You have to select the Phantom (recommended) wallet to connect to the Solana network.
 
 <div class='neon-img-width-600' style={{textAlign: 'center'}}>
 
