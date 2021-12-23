@@ -43,7 +43,7 @@ Click `Select a token` to open up a menu where you can select a token to exchang
 ### Step3. Add a new token to the list, if necessary
 The `Select a token` menu contains tokens deployed in Neon EVM. If the token symbol you specified is not in the list, you can paste the token's address if you know what it is. But be aware, the token must first be deployed on the Neon EVM network.
 
-If you want to add a new token to the list, click `Manage` at the bottom of the box. The `Manage` tab will open on the screen. Add the address of the new token deployed in the Neon EVM network and click `Import` (you can take a token's address from a namber of places including [ERC20 Wrapper Address (Neon EVM)](https://docs.google.com/spreadsheets/d/1ksQl_BZDYZ17pf9HcinkgPt4xmVrXzudum43c6scdiM/edit#gid=0) (the link will be added later)).
+If you want to add a new token to the list, click `Manage` at the bottom of the box. The `Manage` tab will open on the screen. Add the address of the new token deployed in the Neon EVM network and click `Import` (you can take a token's address from a namber of places including ERC20 Wrapper Address (Neon EVM) (*the link will be added later*).
 
 <div class='neon-img-width-600' style={{textAlign: 'center'}}>
 
@@ -79,7 +79,7 @@ Once you are ready to perform the exchange click `Swap`. A confirmation window w
 
 ### 6. Check the result of the exchange
 
-The request will open up a MetaMask window where you can confirm the transaction. You can see estimate of how much gas you will pay. Click `Confirm` to send the transaction.
+The request will open up a MetaMask window where you can confirm the transaction. You can see an estimate of how much gas you will pay. Click `Confirm` to send the transaction.
 
 <div class='neon-img-box-300' style={{textAlign: 'center'}}>
 
@@ -100,6 +100,7 @@ Now you can open the Metamax, as well as the list of tokens, by clicking `Select
 <div class='neon-img-width-600' style={{textAlign: 'center'}}>
 
 ![](./images/swap-erc20-7.png)
+
 </div>
 
 The transaction is complete which means you have successfully changed your ETH for USDT.
@@ -115,7 +116,7 @@ Click the cogwheel icon. The window `Transaction Settings` will pop-up on the sc
 </div>
 
 Transaction settings:
-  * `Slippage tolerance` — the allowable amount of price change. It means that the order is fulfilled at the price different from what you expected. If it exceeds the tolerance level selected, the transaction will not go through. If you are trading during high volatility, you may want to increase this value. Increasing the transaction speed can help you to reduce the chances of high [slippage](https://doc.neonlabs.org/docs/glossary#slippage).
+  * `Slippage tolerance` — the allowable amount of price change. It means that the order is fulfilled at a price different from what you expected. If it exceeds the tolerance level selected, the transaction will not go through. If you are trading during high volatility, you may want to increase this value. Increasing the transaction speed can help you to reduce the chances of high [slippage](https://doc.neonlabs.org/docs/glossary#slippage).
   * `Transaction deadline` — allows the transaction to automatically cancel if it is taking too long to process.
   * `Toggle Expert Mode` — disables the confirmation screen and removes [slippage](https://doc.neonlabs.org/docs/glossary#slippage) limits. It is not encouraged to enable this mode unless you fully understand the risks.
   * `Disable Multihops` — disables complex conversion paths. For example, if there is not enough liquidity in the "A->B" token pair, then the algorithm can involve other tokens to find the "A->C->B" intermediate route and make an exchange for you. This action requires more network fees, because several smart contracts are involved.
